@@ -1,0 +1,289 @@
+nav {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 1000;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 20%;
+    margin-block: 200px;
+}
+
+
+.section-header {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.section-header-background {
+    position: absolute;
+    z-index: -1;
+    margin: 0;
+    top: 4rem;
+    font-size: 8rem;
+    color: rgba(128, 128, 128, .2);
+}
+
+.card {
+    width: 45%;
+    background-color: rgb(42, 42, 42);
+    padding: 20px;
+}
+
+
+.range-container{
+    width: 45%; margin-block: 20px;
+}
+
+.range {
+    overflow: hidden;
+    height: 14px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.25);
+    border-radius: 2px;
+}
+
+.width-range {
+    overflow: hidden;
+    height: 30px;
+    background-color: rgb(241, 188, 51);
+}
+
+.low-banner{
+    margin-block:200px; padding-block: 50px ;background: url('https://technext.github.io/clark/images/bg_1.jpg') no-repeat center;background-size: cover;
+}
+
+.low-banner-card{
+    width: 22.5%; background-color: rgb(34, 34, 34); display: flex; align-items: center; justify-content: center;
+}
+
+
+.contact-me-icon{
+    background-color: rgb(49, 49, 49); color: goldenrod; padding: 30px; border-radius: 50%; font-size: 30px;
+}
+
+.contact-me-card{
+    text-align: center; width: 25%;
+}
+
+.input-form{
+    width: 100%; margin-block: 15px; padding-block: 10px;
+}
+
+/* .card > h2:first-child{
+    color :goldenrod;
+} */
+
+
+
+/* text align */
+.text-center {
+    text-align: center;
+}
+
+/* text decoration  */
+.text-decoration-none {
+    text-decoration: none;
+}
+
+/* font size */
+.font-size-80px {
+    font-size: 80px;
+}
+
+.font-size-8rem {
+    font-size: 8rem;
+}
+
+.font-size-5rem {
+    font-size: 5rem;
+}
+
+/* color  */
+.color-white,
+.color-white * {
+    color: white;
+}
+
+.color-goldenrod {
+    color: goldenrod;
+}
+
+.color-gray {
+    color: gray;
+}
+
+.color-background-text {
+    color: rgba(128, 128, 128, .2);
+}
+
+
+/* background color  */
+.bg-black {
+    background-color: black;
+}
+
+.bg-goldenrod {
+    background-color: goldenrod;
+}
+.bg-smoke{
+    background-color: whitesmoke;
+}
+
+
+/* display  */
+.d-flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+/* justify-content */
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+
+/* position */
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.top-50px {
+    top: 50px;
+}
+
+.top-4rem {
+    top: 4rem;
+}
+
+/* z-index */
+.z-index-1 {
+    z-index: -1;
+}
+
+
+
+/* gap */
+.gap-30px {
+    gap: 30px;
+}
+.gap-20px {
+    gap: 20px;
+}
+
+/* padding */
+.padding-btn{
+    padding: 12px 30px;
+}
+
+.p-50px{
+    padding: 50px;
+}
+.p-left-1rem {
+    padding-left: 1rem;
+}
+
+.p-left-20px {
+    padding-left: 20px;
+}
+
+.p-bottom-20px{
+    padding-bottom: 20px;
+}
+
+.p-inline-40px {
+    padding-inline: 40px;
+}
+
+.p-inline-20p {
+    padding-inline: 20%;
+}
+
+.p-block-20px {
+    padding-block: 20px;
+}
+
+/* margin */
+
+.margin-top-m100px{
+    margin-top: -100px;
+}
+
+.margin-0 {
+    margin: 0;
+}
+.margin-top-50px{
+    margin-top: 50px;
+}
+.margin-right-10p {
+    margin-right: 10%;
+}
+.margin-right-20p{
+    margin-right: 20%;
+}
+
+.margin-block-50px {
+    margin-block: 50px;
+}
+.margin-block-100px {
+    margin-block: 100px;
+}
+
+.margin-block-200px {
+    margin-block: 200px;
+}
+
+
+/* width  */
+.w-100 {
+    width: 100%;
+}
+.w-95{
+    width: 95%;
+}
+.w-90{
+    width: 90%;
+}
+.w-80{
+    width: 80%;
+}
+.w-70{
+    width: 70%;
+}
+.w-60{
+    width: 60%;
+}
+.w-50{
+    width: 50%;
+}
+.w-30{
+    width: 30%;
+}
+
+.border-radius-50px {
+    border-radius: 50px;
+}
